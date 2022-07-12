@@ -6,8 +6,8 @@
 
 If you use Clion the location is <CLion_istallation_path>\bin\cmake\win\share\cmake-(version)\Modules.
 
-4. Download the CMakeLists.txt from this repository and replace all NAME_PROJECT
-5. The main should look like:
+4. Download the CMakeLists.txt from this repository and replace all "NAME_PROJECT"
+5. Modify the main.cpp to look like:
 
 `int main (int argc, char* args[])`
 
