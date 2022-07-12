@@ -7,8 +7,9 @@
 If you use Clion the location is <CLion_istallation_path>\bin\cmake\win\share\cmake-(version)\Modules.
 
 4. Download the CMakeLists.txt from this repository and replace all "NAME_PROJECT"
-5. Modify the main.cpp to look like:
+5. Put the SDL2.dll from the SDL Development folder into your cmake-build-debug folder
+6. Modify the main.cpp to look like:
 
 `int main (int argc, char* args[])`
 
-6. The exit code should be 0
+**The exit code should be 0**
