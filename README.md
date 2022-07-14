@@ -1,6 +1,6 @@
 # Cmake and SDL2 Setup Tutorial
 
-1. Downloaded the lastest [SDL Development Libraries](https://www.libsdl.org/download-2.0.php)
+1. Downloaded the lastest [SDL Development Libraries for MinGw](https://www.libsdl.org/download-2.0.php)
 2. Downlad the [SDL2 Cmake Scripts](https://github.com/tcbrindle/sdl2-cmake-scripts)
 3. Put FindSDL2.cmake into the "Modules" CMake subfolder.
 
