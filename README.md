@@ -28,3 +28,6 @@ If your exit code is 0 and Clion detects your SDL2 headers then you are good to 
 
 
 ### The project tree should look like this
+<p align="center">
+  <img src="Example.png" />
+</p>
