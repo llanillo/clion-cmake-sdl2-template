@@ -3,9 +3,9 @@ project(NAME_PROJECT)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(NAME_PROJECT main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
 # --- SDL2 SETUP ---
-find_package(SDL2 REQUIRED)
+find_package(${PROJECT_NAME} REQUIRED)
 include_directories( ${SDL2_INCLUDE_DIR} )
-target_link_libraries(NAME_PROJECT ${SDL2_LIBRARY})
+target_link_libraries(${PROJECT_NAME} ROJECT ${SDL2_LIBRARY})
