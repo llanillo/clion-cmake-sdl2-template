@@ -25,3 +25,6 @@ If your exit code is 0 and Clion detects your SDL2 headers then you are good to 
 
 * MingGw should be the default toolchains for Clion
 * Add the SDL2 and cmake folder to your gitignore
+
+
+### The project tree should look like this
