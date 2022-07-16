@@ -40,7 +40,9 @@ If your exit code is 0 and Clion detects your SDL2 headers then you are good to 
 ## Setup SDL2 Image
 
 1. Download the [SDL Image Development Release](https://github.com/libsdl-org/SDL_image/releases)
+
 2. Inside your SDL2 Image folder (downloaded from step 1), select the version you are using for SDL2 and copy it to your SDL2 folder in your project (It won't override anything)
+
 3. Add to the CMakeList:
 
 ``` 
