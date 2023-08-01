@@ -1,3 +1,12 @@
+## Clions Project
+cmake-build-debug/*
+!cmake-build-debug/SDL2.dll
+# cmake/
+.idea/
+
+
+
+## CMake
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -9,5 +18,3 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
-cmake-build-debug/
-.idea/
