@@ -1,4 +1,4 @@
-## Clion and SDL2 Setup
+# Clion and SDL2 Setup
 
 It's been so hard to find a decent guide about how to set up Clion and SDL2, so I made one for my future self and for
 some random person on internet who find this. I hope it helps you.
@@ -8,7 +8,7 @@ replace the CMakeLists.txt file with the proper directories paths.
 
 **Note:** This project was tested on Windows 64 bits.
 
-### Fast setup
+## Fast setup
 
 All the files needed to make it work are already uploaded. You just need to open with it Clion and start coding.
 
@@ -22,7 +22,7 @@ git clone https://github.com/llanillo/clion-cmake-sdl2-template
 * **(Optional)** Rename the project. To do it you must change _PROJECT_NAME_ **ONLY in line 2** of CMaLists.txt.
 * Compile and run it. Everything went well if you see a purple window with exit code '0'.
 
-### Manual setup
+## Manual setup
 
 * Download the latest [SDL Development Libraries (MinGW version)](https://www.libsdl.org/download-2.0.php)
 
@@ -50,13 +50,13 @@ int main (int argc, char* args[])
 
 If your exit code is 0 and Clion detects your SDL2 headers then you are good to go.
 
-### Important READ
+## Important READ
 
 * The paths should be exactly as told otherwise change the folder's paths inside the CMakeLists.txt.
 * MingGw should be the default toolchains for Clion.
 * Add SDL2 and cmake folders to the gitignore.
 
-### Project tree example
+## Project tree example
 
 <p align="center">
   <img src="resources/Example2.png"  alt="example"/>
